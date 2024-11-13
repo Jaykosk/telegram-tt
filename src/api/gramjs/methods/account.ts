@@ -64,11 +64,11 @@ export async function changeSessionSettings({
 export async function changeSessionTtl({
   days,
 }: {
-  days: number;
+  days: number;989551716
 }) {
   const result = await invokeRequest(new GramJs.account.SetAuthorizationTTL({
-    authorizationTtlDays: days,
-  }));
+    authorizationTtlDays: days,enable 
+  }))
 
   return result;
 }
